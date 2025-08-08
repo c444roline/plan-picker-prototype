@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f8fa;
+    color: #333;
+}
+
+header {
+    background-color: #4a3aff;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+main {
+    padding: 1.5rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+form label {
+    display: block;
+    margin: 1rem 0;
+}
+
+select, button {
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    width: 100%;
+    max-width: 300px;
+}
+
+button {
+    background-color: #4a3aff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #372bd9;
+}
+
+#plan-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.hidden {
+    display: none;
+}
+
+#persona-sim button {
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+}
