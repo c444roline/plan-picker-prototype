@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Choose Your Plan</title>
+  <link rel="stylesheet" href="plans.css">
+</head>
+<body>
+  <main class="plans-page">
+    <h1>Choose Your Plan</h1>
+    <p class="subtitle">Start by selecting the plan that's right for you.</p>
+
+    <!-- Tabs -->
+    <div class="tabs">
+      <button class="tab active">Bundles</button>
+      <button class="tab">Monthly</button>
+      <button class="tab">Yearly <span class="save">Save 16%</span></button>
+    </div>
+
+    <!-- Plans -->
+    <div class="plans-container">
+    <!-- Bundles tab content -->
+    <div class="tab-content active" data-tab="Bundles">
+        <!-- With Ads -->
+        <div class="plan-card">
+        <div class="plan-save">SAVE $12.98/MONTH</div>
+        <div class="plan-header">
+            <img src="disney-plus-logo.png" alt="Disney+" class="logo">
+            <img src="hulu-logo.png" alt="Hulu" class="logo">
+            <img src="hbo-max-logo.png" alt="HBO Max" class="logo">
+        </div>
+        <h2>Disney+, Hulu, HBO Max Bundle<br>(With Ads)</h2>
+        <div class="price">$16.99 <span>/month</span></div>
+        <ul>
+            <li>HBO Max Basic With Ads, Disney+ Basic, Hulu (With Ads)</li>
+            <li>Full HD video resolution on HBO Max</li>
+            <li>Stream HBO Max on 2 devices at once</li>
+        </ul>
+        </div>
+
+        <!-- No Ads -->
+        <div class="plan-card">
+        <div class="plan-save">SAVE $21.98/MONTH</div>
+        <div class="plan-header">
+            <img src="disney-plus-logo.png" alt="Disney+" class="logo">
+            <img src="hulu-logo.png" alt="Hulu" class="logo">
+            <img src="hbo-max-logo.png" alt="HBO Max" class="logo">
+        </div>
+        <h2>Disney+, Hulu, HBO Max Bundle<br>(No Ads)</h2>
+        <div class="price">$29.99 <span>/month</span></div>
+        <ul>
+            <li>HBO Max Standard, Disney+ Premium, Hulu (No Ads)</li>
+            <li>Full HD video resolution on HBO Max</li>
+            <li>Stream HBO Max on 2 devices at once</li>
+            <li>30 downloads on HBO Max to watch on the go</li>
+        </ul>
+        </div>
+    </div>
+
+    <!-- Monthly tab content -->
+    <div class="tab-content" data-tab="Monthly" style="display:none;">
+        <div class="plan-card">
+        <h2>Monthly Plan Example</h2>
+        <div class="price">$14.99 <span>/month</span></div>
+        <ul>
+            <li>Access to all monthly shows</li>
+            <li>HD streaming</li>
+        </ul>
+        </div>
+    </div>
+
+    <!-- Yearly tab content -->
+    <div class="tab-content" data-tab="Yearly" style="display:none;">
+        <div class="plan-card">
+        <h2>Yearly Plan Example</h2>
+        <div class="price">$149.99 <span>/year</span></div>
+        <ul>
+            <li>Save 16% compared to monthly</li>
+            <li>Access to all yearly shows</li>
+            <li>HD streaming + offline downloads</li>
+        </ul>
+        </div>
+    </div>
+    </div>
+
+    <!-- Student Offer -->
+    <p class="student-offer">Student? <a href="#">Get the HBO Max Student Discount</a></p>
+
+    <!-- Disclaimer -->
+    <p class="disclaimer">
+      Ads served on select live & linear content in No Ads plan. Savings based on regular monthly price of each service. Access each service separately. Content, feature & device compatibility vary by service. Live Sports and CNN Max included on the HBO Max Standard plan. Live Sports has select games and blackouts. Download limits apply to certain content categories on HBO Max. Additional terms apply.
+    </p>
+
+    <!-- Continue Button -->
+    <div class="continue-btn-container">
+      <button class="continue-btn">Continue</button>
+    </div>
+  </main>
+<script src="script.js"></script>
+</body>
+</html>
+

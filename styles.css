@@ -1,60 +1,63 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f7f8fa;
-    color: #333;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
-header {
-    background-color: #4a3aff;
-    color: white;
-    padding: 1.5rem;
-    text-align: center;
+.site-header {
+  background-color: black;
+  padding: 12px 24px;
 }
 
-main {
-    padding: 1.5rem;
-    max-width: 800px;
-    margin: auto;
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
-form label {
-    display: block;
-    margin: 1rem 0;
+.logo img {
+  height: 30px;
 }
 
-select, button {
-    padding: 0.5rem;
-    margin-top: 0.3rem;
-    width: 100%;
-    max-width: 300px;
+.header-actions {
+  display: flex;
+  gap: 12px;
 }
 
-button {
-    background-color: #4a3aff;
-    color: white;
-    border: none;
-    cursor: pointer;
+.sign-in-btn {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background 0.2s;
 }
 
-button:hover {
-    background-color: #372bd9;
+.sign-in-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
-#plan-card {
-    background: white;
-    padding: 1rem;
-    border-radius: 10px;
-    margin-top: 1rem;
-    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+.sign-up-btn {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  transition: background 0.2s;
 }
 
-.hidden {
-    display: none;
+.sign-up-btn:hover {
+  background-color: #e0e0e0;
 }
 
-#persona-sim button {
-    margin-right: 0.5rem;
-    margin-top: 0.5rem;
+.landing-bg{
+  width: 100%;
+  display: block;
+  align-items: center;
+  justify-content: center;
 }

@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  background: linear-gradient(#111, #000);
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.plans-page {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.tab {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-bottom: 2px solid transparent;
+}
+
+.tab.active {
+  border-bottom: 2px solid white;
+  font-weight: bold;
+}
+
+.save {
+  color: #4ac0ff;
+  font-weight: bold;
+}
+
+.plans-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.plan-card {
+  background: #111;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  text-align: left;
+  position: relative;
+}
+
+.plan-save {
+  background: #4ac0ff;
+  color: black;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+  border-radius: 6px 6px 0 0;
+}
+
+.plan-header {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.logo {
+  height: 25px;
+}
+
+.plan-card h2 {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.price {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.price span {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  color: #ccc;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+.student-offer {
+  margin-top: 20px;
+}
+
+.student-offer a {
+  color: #4ac0ff;
+  text-decoration: none;
+}
+
+.disclaimer {
+  font-size: 0.8rem;
+  color: #aaa;
+  margin-top: 20px;
+}
+
+.continue-btn-container {
+  margin-top: 20px;
+}
+
+.continue-btn {
+  background: white;
+  color: black;
+  font-size: 1rem;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.continue-btn:hover {
+  background: #ddd;
+}

@@ -62,3 +62,21 @@ function selectInterests(values) {
         options[i].selected = values.includes(options[i].value);
     }
 }
+
+document.querySelectorAll('.tabs .tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    // Remove active class from all tabs
+    document.querySelectorAll('.tabs .tab').forEach(t => t.classList.remove('active'));
+
+    // Hide all tab contents
+    document.querySelectorAll('.tab-content').forEach(tc => tc.style.display = 'none');
+
+    // Add active class to clicked tab
+    tab.classList.add('active');
+
+    // Show corresponding tab content
+    const tabName = tab.textContent.replace('Save 16%', '').trim(); // Remove Save span text if present
+    const content = document.querySelector(`.tab-content[data-tab="${tabName}"]`);
+    if (content) content.style.display = 'block';
+  });
+});

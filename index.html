@@ -1,79 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ML Plan Picker Prototype</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HBO Max Header Clone</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Plan Picker Prototype</h1>
-        <p>Simulating personalized recommendations based on simple rules</p>
-    </header>
+  <header class="site-header">
+    <div class="header-container">
+      <!-- Logo -->
+      <div class="logo">
+        <img src="https://www.hbomax.com/img/hbomax/logo_nav_bar.png" alt="HBO Max Logo">
+      </div>
 
-    <main>
-        <section id="user-input">
-            <h2>Your Info</h2>
-            <form id="plan-form">
-                <label>
-                    Device Type:
-                    <select id="device">
-                        <option value="mobile">Mobile</option>
-                        <option value="desktop">Desktop</option>
-                        <option value="tv">Smart TV</option>
-                    </select>
-                </label>
-
-                <label>
-                    Location:
-                    <select id="location">
-                        <option value="urban">Urban</option>
-                        <option value="suburban">Suburban</option>
-                        <option value="rural">Rural</option>
-                    </select>
-                </label>
-
-                <label>
-                    Income Level:
-                    <select id="income">
-                        <option value="low">Low</option>
-                        <option value="medium">Medium</option>
-                        <option value="high">High</option>
-                    </select>
-                </label>
-
-                <label>
-                    Interests:
-                    <select id="interests" multiple>
-                        <option value="sports">Sports</option>
-                        <option value="movies">Movies</option>
-                        <option value="kids">Kids & Family</option>
-                        <option value="documentaries">Documentaries</option>
-                    </select>
-                    <small>Hold Ctrl/Command to select multiple</small>
-                </label>
-
-                <button type="submit">Get Recommendation</button>
-            </form>
-        </section>
-
-        <section id="recommendation">
-            <h2>Recommended Plan</h2>
-            <div id="plan-card" class="hidden">
-                <h3 id="plan-name"></h3>
-                <p id="plan-reason"></p>
-            </div>
-        </section>
-
-        <section id="persona-sim">
-            <h2>Persona Simulator</h2>
-            <button data-persona="student">🎓 Student</button>
-            <button data-persona="family">👨‍👩‍👧 Family</button>
-            <button data-persona="cinephile">🎬 Cinephile</button>
-        </section>
-    </main>
-
-    <script src="script.js"></script>
+      <!-- Right-side buttons -->
+      <div class="header-actions">
+        <a href="#" class="sign-in-btn">SIGN IN</a>
+        <a href="plans.html" class="sign-up-btn">SIGN UP NOW</a>
+      </div>
+      
+    </div>
+  </header>
+    <!-- Image background-->
+        <img src="hi.jpg" class="landing-bg" alt="landing page">
 </body>
 </html>
